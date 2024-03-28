@@ -321,6 +321,9 @@ Google Cloud
     - ``google-europe-west9``
     - Europe, France: Paris
   * - Europe
+    - ``google-europe-west10``
+    - Europe, Germany: Berlin
+  * - Europe
     - ``google-europe-west12``
     - Europe, Italy: Turin
   * - Middle East
@@ -419,41 +422,3 @@ UpCloud
   * - North America
     - ``upcloud-us-sjo``
     - United States, California: San Jose
-
-Oracle Cloud Infrastructure
------------------------------------------------------
-
-.. important::
-
-    Oracle Cloud Infrastructure (OCI) is supported on the Aiven platform as a :doc:`limited availability feature </docs/platform/concepts/beta_services>`. For more information or access, contact the sales team at sales@Aiven.io.
-
-.. list-table::
-  :header-rows: 1
-
-  * - Region
-    - Cloud
-    - Description
-  * - Asia-Pacific
-    - ``ap-mumbai-1``
-    - India, India West: Mumbai
-  * - Asia-Pacific
-    - ``ap-sydney-1``
-    - Australia, Australia East: Sydney
-  * - Europe
-    - ``eu-frankfurt-1``
-    - Germany, Germany Central: Frankfurt
-  * - Europe
-    - ``uk-london-1``
-    - United Kingdom, UK South: London
-  * - Middle East
-    - ``me-dubai-1``
-    - UAE, UAE East: Dubai
-  * - North America
-    - ``us-ashburn-1``
-    - US East, Virginia: Ashburn
-  * - North America
-    - ``us-phoenix-1``
-    - US West, Arizona: Phoenix
-  * - South America
-    - ``sa-saopaulo-1``
-    - Brazil, Brazil East: São Paulo
