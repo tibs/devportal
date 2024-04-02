@@ -69,7 +69,7 @@
 ---------------------
 *['string', 'null']*
 
-**Cassandra major version** 
+**Cassandra version** 
 
 
 
