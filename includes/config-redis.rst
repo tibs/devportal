@@ -1,4 +1,10 @@
 
+``additional_backup_regions``
+-----------------------------
+*array*
+
+**Additional Cloud Regions for Backup Replication** 
+
 
 
 ``ip_filter``
@@ -186,6 +192,14 @@
 *string*
 
 **Default ACL for pub/sub channels used when Redis user is created** Determines default pub/sub channels' ACL for new users if ACL is not supplied. When this option is not defined, all_channels is assumed to keep backward compatibility. This option doesn't affect Redis configuration acl-pubsub-default.
+
+
+
+``redis_version``
+-----------------
+*['string', 'null']*
+
+**Redis major version** 
 
 
 
