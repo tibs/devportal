@@ -557,7 +557,7 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 *integer*
 
-**The maximum delay of rebalancing connector workers** The maximum delay that is scheduled in order to wait for the return of one or more departed workers before rebalancing and reassigning their connectors and tasks to the group. During this period the connectors and tasks of the departed workers remain unassigned.  Defaults to 5 minutes.
+**The maximum delay of rebalancing connector workers** The maximum delay that is scheduled in order to wait for the return of one or more departed workers before rebalancing and reassigning their connectors and tasks to the group. During this period the connectors and tasks of the departed workers remain unassigned. Defaults to 5 minutes.
 
 ``session_timeout_ms``
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -646,6 +646,12 @@
 *integer*
 
 **consumer.request.timeout.ms** The maximum total time to wait for messages for a request if the maximum number of messages has not yet been reached
+
+``name_strategy``
+~~~~~~~~~~~~~~~~~
+*string*
+
+**name.strategy** Name strategy to use when selecting subject for storing schemas
 
 ``name_strategy_validation``
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
