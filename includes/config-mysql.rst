@@ -1,4 +1,12 @@
 
+``additional_backup_regions``
+-----------------------------
+*array*
+
+**Additional Cloud Regions for Backup Replication** 
+
+
+
 ``ip_filter``
 -------------
 *array*
@@ -227,7 +235,7 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 *integer*
 
-**innodb_flush_neighbors** Specifies whether flushing a page from the InnoDB buffer pool also flushes other dirty pages in the same extent (default is 1): 0 - dirty pages in the same extent are not flushed,  1 - flush contiguous dirty pages in the same extent,  2 - flush dirty pages in the same extent
+**innodb_flush_neighbors** Specifies whether flushing a page from the InnoDB buffer pool also flushes other dirty pages in the same extent (default is 1): 0 - dirty pages in the same extent are not flushed, 1 - flush contiguous dirty pages in the same extent, 2 - flush dirty pages in the same extent
 
 ``innodb_ft_min_token_size``
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
