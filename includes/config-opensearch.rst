@@ -1,4 +1,9 @@
 
+``additional_backup_regions``
+-----------------------------
+*array*
+
+**Additional Cloud Regions for Backup Replication** 
 
 
 
@@ -319,6 +324,12 @@
 *boolean*
 
 **action.auto_create_index** Explicitly allow or block automatic creation of indices. Defaults to true
+
+``plugins_alerting_filter_by_backend_roles``
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*boolean*
+
+**plugins.alerting.filter_by_backend_roles** Enable or disable filtering of alerting by backend roles. Requires Security plugin. Defaults to false
 
 ``auth_failure_listeners``
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
